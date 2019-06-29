@@ -121,7 +121,8 @@ public class ProductController {
     }
     
     @GetMapping (value = "/Produitsabc")
-    public void trierProduitsParOrdreAlphabetique() {
+    public List<Product> trierProduitsParOrdreAlphabetique() {
+        return productDao.findAllByOrderByNom();
     }
 
 
