@@ -101,21 +101,6 @@ public class ProductController {
 		return productDao.chercherUnProduitCher(400);
 	}
 
-//    @GetMapping(value= "AdminProduits")
-//    public List calculerMargeProduit() {
-//    	List test = new ArrayList();
-//    	
-//    	List<Product> produits = productDao.findAll();  
-//    	
-//    	for (Product element : produits) {
-//    		
-//    		int marge = (element.getPrix() - element.getPrixAchat());
-//    		test.add("["+ "id =  " + element.getId() + " nom = " + element.getNom() + " prix = " + element.getPrix()+"] : "+ marge);
-//    	}
-//    	
-//    	return test;
-//    	
-//    }
 	@GetMapping(value= "AdminProduits")
 	public MappingJacksonValue calculerMargeProduit() {
 		
