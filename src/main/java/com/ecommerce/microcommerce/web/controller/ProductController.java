@@ -106,6 +106,7 @@ public class ProductController {
     @GetMapping(value = "test/produits/{prix}")
     public List<Product>  testeDeRequetes(@PathVariable int prix) {
 
+<<<<<<< 3f9064b949bf8cfedd4572a2fbab42b122fd647c
         return productDao.chercherUnProduitCher(400);
     }
     
@@ -119,6 +120,21 @@ public class ProductController {
     		
     		int marge = (element.getPrix() - element.getPrixAchat());
     		test.add("["+ "id =  " + element.getId() + " nom = " + element.getNom() + " prix = " + element.getPrix()+"] : "+ marge);
+=======
+	@GetMapping(value= "AdminProduits")
+	public MappingJacksonValue calculerMargeProduit() {
+		
+		Iterable<Product> produits = productDao.findAll();
+		List test = new ArrayList();
+		
+		int prix = produits.iterator().next().getPrix();
+		int prixAchat = produits.iterator().next().getPrixAchat();
+		int marge = prix - prixAchat;
+		
+		for (Product element : produits) {
+			
+			test.add(element +" : " + marge);
+>>>>>>> MAJ Partie 1
     	}
     	
     	return test;
