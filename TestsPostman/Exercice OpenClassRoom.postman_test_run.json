@@ -1,8 +1,8 @@
 {
-	"id": "378a8a80-3272-4448-ab34-8b263b09ef99",
+	"id": "ce50a7c2-81bb-4bb8-b3dd-0b7d10356326",
 	"name": "Exercice OpenClassRoom",
 	"allTests": [],
-	"timestamp": "2019-06-29T16:09:46.058Z",
+	"timestamp": "2019-06-29T17:38:06.196Z",
 	"collection_id": "81860282-1cee-419a-a7fc-1523ef8d9ecf",
 	"folder_id": 0,
 	"target_type": "collection",
@@ -46,13 +46,13 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				"14"
+				"226"
 			],
 			"allTests": [
 				{}
 			],
-			"time": "14",
-			"totalRequestTime": "14",
+			"time": "226",
+			"totalRequestTime": "226",
 			"iterationResults": {}
 		},
 		{
@@ -71,13 +71,13 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				"9"
+				"27"
 			],
 			"allTests": [
 				{}
 			],
-			"time": "9",
-			"totalRequestTime": "9",
+			"time": "27",
+			"totalRequestTime": "27",
 			"iterationResults": {}
 		},
 		{
@@ -96,26 +96,26 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				"12"
+				"173"
 			],
 			"allTests": [
 				{}
 			],
-			"time": "12",
-			"totalRequestTime": "12",
+			"time": "173",
+			"totalRequestTime": "173",
 			"iterationResults": {}
 		}
 	],
 	"totalPass": 0,
 	"totalFail": 0,
-	"totalTime": 35,
+	"totalTime": 426,
 	"lifecycle": "done",
 	"requests": [
 		{
 			"name": "http://localhost:9090/AdminProduits",
 			"id": "97f941b7-9589-4ed6-b132-a438c75cadfa",
 			"url": "http://localhost:9090/AdminProduits",
-			"time": "2019-06-29T16:09:46.058Z",
+			"time": "2019-06-29T17:38:06.196Z",
 			"responseCode": {
 				"code": 200,
 				"name": "OK",
@@ -130,7 +130,7 @@
 			"name": "http://localhost:9090/AdminProduits",
 			"id": "dce898fb-9bad-4385-bcdb-8081b1ea7f96",
 			"url": "http://localhost:9090/Produitsabc",
-			"time": "2019-06-29T16:09:46.058Z",
+			"time": "2019-06-29T17:38:06.196Z",
 			"responseCode": {
 				"code": 200,
 				"name": "OK",
@@ -145,7 +145,7 @@
 			"name": "http://localhost:9090/AdminProduits",
 			"id": "5200e0d1-3f1d-4284-befa-43fd31c8b9b3",
 			"url": "http://localhost:9090/Produits",
-			"time": "2019-06-29T16:09:46.058Z",
+			"time": "2019-06-29T17:38:06.196Z",
 			"responseCode": {
 				"code": 403,
 				"name": "Forbidden",
